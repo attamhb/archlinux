@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Set variables
 USER_NAME="atta"
-execute_chroot() { arch-chroot /mnt /bin/bash -c "$1" }
-
-display_message() { echo "$1" sleep 2 }
 
 
 userad -m $USER_NAME
